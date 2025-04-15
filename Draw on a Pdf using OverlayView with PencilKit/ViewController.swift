@@ -57,7 +57,7 @@ class ViewController: UIViewController {
             pdfView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
         
-        if let path = Bundle.main.path(forResource: "test", ofType: "pdf") {
+        if let path = Bundle.main.path(forResource: "test1", ofType: "pdf") {
             let url = URL (fileURLWithPath: path)
             pdfView.loadPDF(url: url)
         }
