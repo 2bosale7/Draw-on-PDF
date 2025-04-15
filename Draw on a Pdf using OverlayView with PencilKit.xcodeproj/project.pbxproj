@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5C7A06032DAE6F45004AC450 /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5C7A06022DAE6F45004AC450 /* test.pdf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		5C7A05D22DAE3448004AC450 /* Draw on a Pdf using OverlayView with PencilKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Draw on a Pdf using OverlayView with PencilKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C7A06022DAE6F45004AC450 /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -47,6 +52,7 @@
 			children = (
 				5C7A05D42DAE3448004AC450 /* Draw on a Pdf using OverlayView with PencilKit */,
 				5C7A05D32DAE3448004AC450 /* Products */,
+				5C7A06022DAE6F45004AC450 /* test.pdf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C7A06032DAE6F45004AC450 /* test.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +155,7 @@
 				DEVELOPMENT_TEAM = H2W73842ND;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Draw on a Pdf using OverlayView with PencilKit/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Draw on PDF";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -158,7 +166,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mg.group.Draw-on-a-Pdf-using-OverlayView-with-PencilKit";
+				PRODUCT_BUNDLE_IDENTIFIER = "mg.group.Draw-on-a-Pdf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -176,6 +184,7 @@
 				DEVELOPMENT_TEAM = H2W73842ND;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Draw on a Pdf using OverlayView with PencilKit/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Draw on PDF";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -186,7 +195,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mg.group.Draw-on-a-Pdf-using-OverlayView-with-PencilKit";
+				PRODUCT_BUNDLE_IDENTIFIER = "mg.group.Draw-on-a-Pdf";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
